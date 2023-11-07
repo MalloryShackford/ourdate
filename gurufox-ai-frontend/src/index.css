@@ -1,0 +1,82 @@
+* {
+        backface-visibility: hidden !important;
+        -webkit-backface-visibility: hidden !important;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+
+html {
+        background: linear-gradient(to bottom, #50afbf, white);
+}
+
+body {
+        height: 100%;
+}
+
+@font-face {
+        font-family: Avenir LT Std;
+        font-style: normal;
+        font-weight: 400;
+        src: local('Avenir LT Std'), url(https://fonts.cdnfonts.com/s/13298/AvenirLTStd-Roman.woff) format('woff');
+}
+/* 
+@font-face {
+        font-family: Avenir LT Std;
+        font-style: bold;
+        font-weight: 700;
+        src: local('Avenir LT Std'), url(https://fonts.cdnfonts.com/s/13298/AvenirLTStd-Roman.woff) format('woff');
+} */
+
+@font-face {
+        font-family: Avenir LT Pro;
+        font-style: bold;
+        font-weight: 700;
+        src: local('Avenir LT Pro'), url(https://fonts.cdnfonts.com/css/avenir-lt-pro);
+    }
+:root {
+        --black: black;
+        --ourdate-black: #363636;
+        --blue-0: #50afbf;
+        --blue-1: #50afbf;
+        --blue-2: #82c6d1;
+        --blue-3: #9bd1da;
+        --blue-4: #b4dd34;
+        --blue-5: #cde8ed;
+        --blue-6: #e6f4f6;
+        --grey-2: #d5d5d5;
+        --grey: #7a7a7a;
+        --btn-grey: #454444;
+        --ourdate-white: #f5f5f5;
+        --red: #d84949;
+        --white: white;
+        --border-radius: 16px;
+        --input-border-radius: 8px;
+        --header-height: calc(env(safe-area-inset-top) + 22px);
+        --footer-height: 50px;
+        --profile-image-size: 42vw;
+        --max-profile-image-size: calc(428pt * 0.42 * 0.5);
+        --max-width: 428pt;
+        --light-blue: var(--blue-3);
+        font-family: 'Avenir LT Std', Arial, sans-serif;
+        font-weight: 400;
+}
+
+/* --------------- Page Layout ----------------- */
+.section {
+        padding: 1rem;
+        width: 80%;
+        margin: 0 auto;
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+}
+
+/* ----------------- Media Queries ------------------- */
+@media screen and (max-width: 475px) {
+        .section {
+                width: 100%;
+        }
+}

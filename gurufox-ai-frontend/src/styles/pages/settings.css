@@ -1,0 +1,57 @@
+
+.user-profile {
+    width: 360px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: white;
+}
+.chevron-left {
+    font-size: 2rem;
+    color: black;
+}
+.change-email {
+    padding: 1em 0;
+    font-weight: 700 !important;
+}
+.change-password {
+    padding: 1em 0;
+    font-weight: 700 !important;
+}
+
+.confirm-password {
+    margin-top: 1em;
+}
+input {
+    width: 100%;
+    height: 2.5em;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #e1e1e1;
+}
+
+input::placeholder{
+    color: #d5d5d5;
+    
+} 
+
+.button {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.user-plans {
+    padding: 20px 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin-top: 1em;
+}

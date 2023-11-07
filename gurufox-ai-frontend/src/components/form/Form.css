@@ -1,0 +1,101 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.form {
+  width: 500px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 2fr;
+  margin: auto;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+}
+
+label,
+input {
+  padding: 1rem 2rem;
+}
+
+/* targets all children of each label */
+label > * {
+  margin-top: 0.4rem;
+}
+
+/* ::placeholder {
+	color: #dcdcdc;
+} */
+
+.location {
+  position: relative;
+}
+
+.input-location {
+  text-align: left;
+  padding-left: 35px;
+}
+
+.mag-glass {
+ position: absolute;
+  top: 47%;
+  left: 45px; 
+
+}
+
+.generate-btn {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: auto;
+  width: 80%;
+  grid-column: 1 / span 2;
+  position: relative;
+}
+
+.generate-img {
+  position: absolute;
+  top: 24%;
+  left: 14%;
+}
+
+@media screen and (min-width: 600px) {
+  .form {
+    width: 800px;
+  }
+}
+
+/* Media query for screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 60%;
+  }
+
+  .generate-img {
+    left: 20%;
+  }
+}
+
+/* ------------- Vibes/Mood Container ------------- */
+.vibes {
+  grid-column: 1 / span 2;
+  padding: 2rem;
+}
+
+.vibes > * {
+  margin-top: 0.8rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}

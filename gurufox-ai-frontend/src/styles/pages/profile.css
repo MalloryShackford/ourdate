@@ -1,0 +1,136 @@
+
+.account-settings-container {
+    width: 360px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-button {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.close-button button {
+    background: #e1e1e1;
+    border-radius: 55%;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .55rem .75rem;
+    border: #e1e1e1;
+    margin-bottom: 1rem;
+    font-family: 'Avenir LT Std', sans-serif;
+}
+
+.account-details {
+    margin-top: 4rem;
+    line-height: 2rem;
+}
+.user-info {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+  
+  .user-avatar {
+    position: relative; 
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+  
+  .circle-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--blue-1);
+    margin: .75rem;
+    font-style: bold;
+    font-weight: 700 !important;
+    
+}
+  
+ .user-name {
+    border-radius: var(--input-border-radius);
+    background: var(--blue-6);
+    padding: 1rem 4rem;
+    color: black;
+    line-height: 2rem;
+    font-size: 1rem;
+    width: 300px;
+}
+
+li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+ul li:nth-child(1) {
+    margin-top: 1rem;
+}
+.link {
+    color: black;
+}
+
+.custom-svg path {
+    fill:black;
+}
+
+.social-icons > a {
+    color: gray;
+    padding: 2rem 1rem 0 0;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.login-button {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: var(--blue-3);
+}
+
+.logout-button {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--blue-1) !important;
+}
+
+.signup {
+    color: var(--grey);
+    margin-top: 1rem;
+    font-size: .8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.signup-link {
+    color: var(--grey);
+}

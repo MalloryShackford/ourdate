@@ -1,0 +1,12 @@
+.history-container {
+    width: 360px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    background: white !important;
+}

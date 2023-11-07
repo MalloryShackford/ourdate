@@ -1,0 +1,3 @@
+const SEARCHING_TIMEOUT = 3000;
+
+export default SEARCHING_TIMEOUT;

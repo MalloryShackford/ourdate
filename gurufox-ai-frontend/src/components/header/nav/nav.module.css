@@ -1,0 +1,61 @@
+.navbar {
+  display: inline-block;
+  top: 0px;
+  left: 5px;
+  z-index: 50;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.nav_img_container {
+  position: fixed;
+}
+
+.nav_img {
+  width: 11rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_img:hover {
+  transform: translateY(0.25rem);
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+.home {
+  padding-left: 60px;
+}
+
+.home:hover {
+  transform: translateY(0.25rem);
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+.item {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.login {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  font-size: 1.3rem;
+}

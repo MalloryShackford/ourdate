@@ -1,0 +1,52 @@
+.about-container {
+    width: 360px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: none !important;
+}
+
+
+.blurb {
+    font-size: .7rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+}
+
+.hug {
+    width: 62px;
+    height: 62px;
+    margin-top: .5rem;
+}
+.frame {
+    display: flex;
+    margin-top: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;                         
+}
+
+.value {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+
+span {
+    font-size: 12px;
+    display: flex;
+    margin-top: .5rem;
+}
+
+.img-1 {
+    margin-top: 1rem;
+    width: 100%;
+}

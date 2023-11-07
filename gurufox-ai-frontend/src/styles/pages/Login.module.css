@@ -1,0 +1,197 @@
+.loginField {
+    display: block;
+    position: absolute;
+    width: 390px;
+    padding: 30px 20px 20px 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12), 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 1rem;
+}
+
+.loginName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* --------------- Signup ----------------- */
+.signUp {
+    padding: 1px 0px 1px 0px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: var(--ourdate-black);
+    font-weight: 700;
+}
+
+.signupSubtitle {
+    padding: 1px 0px 1px 0px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.label {
+    padding: 1px 0px 1px 0px;
+    font-size: 16px;
+}
+
+/* --------------- Input ----------------- */
+.inputContainer {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: var(--input-border-radius);
+    border: 2px solid var(--blue-6);
+    padding: 15px;
+    color: var(--black);
+}
+
+.input:focus {
+    outline: none !important;
+    border: 3px solid var(--blue-3);
+}
+
+input::placeholder {
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--grey-2);
+}
+
+/* --------------- Eye ----------------- */
+.eye {
+    cursor: pointer;
+    display: inline-block;
+    color: var(--grey-2);
+    margin-left: -2rem;
+    padding: 0.05rem 0.3rem;
+}
+
+.eye:active {
+    transform: translateY(1.5px);
+}
+
+/* --------------- Terms and Conditions ----------------- */
+.terms {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 0;
+}
+
+.checkbox_input {
+    width: 20.29px;
+    height: 20px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.checkbox_input::after {
+    content: '\2714';
+    transform: scale(0);
+}
+
+.checkbox:checked+.checkbox_input {
+    background: var(--blue-0);
+    border-color: var(--blue-1);
+    color: white;
+}
+
+.checkbox:checked+.checkbox_input::after {
+    transform: scale(1);
+}
+
+.terms p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.forgotPassword {
+    margin-left: 7rem;
+    color: red;
+    cursor: pointer;
+}
+
+/* ----------------- Error ------------------- */
+.error {
+    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    opacity: 0.7;
+}
+
+.error_message {
+    color: var(--red);
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+/* ----------------- Create Account Button ------------------- */
+.button {
+    border-radius: var(--input-border-radius);
+    border: none;
+    padding: 14px 0px 14px 0px;
+    background-color: var(--blue-3);
+    color: var(--ourdate-black);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 1.4rem;
+    width: 100%;
+}
+
+/* ----------------- Google Button ------------------- */
+/* Updated .googleButton class */
+.googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--input-border-radius);
+    border: 1px solid var(--primary-blue-600, #9BD1DA);
+    padding: 14px 0px 14px 0px;
+    background-color: white;
+    color: var(--grey);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 1.4rem;
+    width: 100%;
+}
+
+/* New class for the button content container */
+.googleButtonContent {
+    display: flex;
+    align-items: center;
+}
+
+/* .googleLogo class remains the same */
+.googleLogo {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+/* --------------- Already have an account ----------------- */
+.already {
+    color: var(--grey);
+    font-size: 14px;
+}
+
+.underline {
+    text-decoration: underline;
+}
