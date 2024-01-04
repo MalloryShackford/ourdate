@@ -1,0 +1,129 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  /* border-bottom: 1px solid gray; */
+}
+
+.navbar {
+  top: 0px;
+  width: 100%;
+  background: white;
+  height: 3.5rem;
+  border-bottom: 1px solid lightgray;
+}
+
+/* .nav_img_container {
+  position: fixed;
+} */
+
+.nav_img {
+  width: 8rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_img:hover {
+  transform: translateY(0.25rem);
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+.home {
+  padding-left: 60px;
+}
+
+.home:hover {
+  transform: translateY(0.25rem);
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+.item {
+  text-decoration: none;
+  /* padding: 2px 1rem; */
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.login {
+  position: absolute;
+  right: 2rem;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 568px) {
+  #profile-icon {
+    display: none;
+  }
+  .nav-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  .spacer {
+    flex: .4;
+  }
+  .navbar {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: none;
+  }
+  .nav_img {
+    display: none;
+    align-items: center;
+    width: 65%;
+    /* padding: 1rem; */
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    /* padding-right: 3rem; */
+  }
+  .item {
+    display: grid;
+    place-items: center;
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 480px){
+  .spacer {
+    flex: .8;
+  }
+  .navbar {
+    display: none;
+    justify-content: center;
+  }
+  .nav-img-container{
+    display:flex;
+    justify-content: center;
+  }
+  .nav-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+  }
+  .item {
+    display: grid;
+    place-items: center;
+    /* padding-top: 3rem; */
+  }
+}

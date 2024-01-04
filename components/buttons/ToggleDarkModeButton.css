@@ -1,0 +1,24 @@
+.toggle-btn {
+    background-color: var(--btn-grey);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 0;
+}
+
+.toggle-btn.toggled {
+    background-color: var(--blue-1);
+}
+
+.dark-mode {
+    background-color: var(--btn-grey);
+    color: #fff;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}

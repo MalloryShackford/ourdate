@@ -1,0 +1,72 @@
+@media (max-width: 568px) {
+    .pricing-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem;
+    }
+    .star-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 6rem 0 2rem 0;
+    }
+    .trial-payment-wrapper {
+      border-radius: 8px;
+      padding: 3px; 
+      background: linear-gradient(to right, #f29e9e 30%, #d0a0ec);
+      margin: 1rem auto;
+      width: 90%;
+    }
+  
+    .trial-payment-container {
+      border-radius: 8px; 
+      background: white;
+      padding: 1rem;
+      width: 100%; 
+    }
+    .renews-p{
+      color: #3B92A1;
+    }
+    .ft-details-container {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 10px;
+      padding: 1rem 1.5rem;
+    }
+    .ft-details-container span {
+      display: flex;
+      align-items: center; 
+      gap: 1rem; 
+    }
+    .ft-btn {
+      border-radius: 8px;
+      border: 2px solid #8AC9D4;
+      padding: 0.8rem 2rem;
+      background: #8AC9D4;
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+    .ft-terms-container {
+      padding: 1rem 1.5rem;
+      margin: 0 2rem;
+      color: #969696;
+      font-size: 14px;
+      text-align:center;
+    }
+    .spans-container {
+      margin-top: 1.5rem;
+    }
+    .spans-container > span {
+      margin-right: 1rem;
+    }
+    .middot {
+      margin-bottom: 0.2rem;
+    }
+  }
+  

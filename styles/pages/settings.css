@@ -1,0 +1,90 @@
+.settings-container {
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.letter-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+    align-items:center;
+
+}
+.settings-h2 {
+    text-align:center;
+    font-weight: bold;
+}
+.settings-p {
+    text-align: center;
+    color: #F16C8C;
+    margin-bottom: 1rem;
+}
+.basic-info-container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+.basic-info {
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 1.5rem;
+}
+.name-h3, 
+.email-h3 {
+    padding-left: 1.5rem;
+    font-weight: bold;
+}
+.name-h3 {
+    padding-top: 1.5rem;
+}
+
+.name-p, 
+.email-p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    color: #3B92A1;
+    font-size: .9rem;
+}
+.email-p{
+    padding-bottom: 1rem;
+}
+.edit-img {
+    margin-left: 10px;
+}
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.password-h3 {
+    padding: 0;
+    display: flex;
+}
+.reset-container {
+    display: inline;
+
+}
+.editing-btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 10px;
+}
+.change-name-input,
+.change-email-input {
+    width: 90%;
+    margin: 0 1.5rem;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+.save-bttn, .cancel-bttn {
+    border-radius: 8px;
+    background: #7abeca;
+    border: #7abeca;
+    padding: .5rem 1rem;
+    
+}

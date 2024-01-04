@@ -1,0 +1,121 @@
+.favorites-container {
+  width: 360px;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tab-link {
+  background: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  width: 50%;
+  font-weight: 700;
+}
+
+.tab-link.active {
+  border-bottom: 1px solid var(--blue-1);
+  color: var(--blue-1);
+}
+
+.search {
+  position: relative;
+}
+.mag-glass {
+  position: absolute;
+  left: 10px;
+  top: 2.6rem;
+}
+
+.input-search {
+  text-align: left;
+  padding-left: 2.5rem;
+}
+
+.plan,
+.plan-history {
+  border: 1px solid var(--blue-1);
+  border-radius: var(--input-border-radius);
+  padding: 10px;
+  margin: 10px;
+  color: var(--blue-1);
+  font-size: 0.8rem;
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.plan > .option {
+  color: black;
+}
+
+.plan > span {
+  color: black;
+}
+
+.show-link {
+  color: var(--blue-1);
+  margin: 0.5rem 0;
+}
+.showcase-link {
+  color: black;
+  line-height: 1.5rem;
+}
+
+.option {
+  display: flex;
+}
+
+.span-item {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  line-height: 1.5rem;
+}
+.location-pin,
+.clock {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.list-icons {
+  position: relative;
+}
+.icons-container {
+  position: absolute;
+  top: 10px;
+  right: 1rem;
+  color: var(--blue-1);
+}
+.icons-container2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.favorited,
+.shared,
+.closed {
+  border: none;
+  background-color: transparent !important;
+  color: var(--blue-1);
+  padding: 0;
+  font-size: 1rem;
+}

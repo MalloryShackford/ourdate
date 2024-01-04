@@ -1,0 +1,112 @@
+.dateplan-date-container {
+  background: linear-gradient(to right, #f29e9e 30%, #d0a0ec);
+  display: flex;
+  padding: 1.5rem;
+  width: 100%;
+}
+.center-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+}
+.plan-content {
+  border: 1px solid #50AFBF;
+}
+.final-dateplan-container {
+  padding: 1rem 1rem 0 1rem;
+}
+.total-cost-p {
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+.timeframe {
+  font-weight: bold;
+}
+.top-plan-container {
+  background: #50afbf;
+  padding-top: 1rem;
+  color: white;
+}
+
+.activity-span, .plan-place {
+  padding: 0 1rem;
+}
+.plan-place {
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+}
+.plan-place img {
+  margin-bottom: 1rem;
+  padding: 0;
+
+}
+.plan-image {
+  width: 100%;
+}
+.plan-description {
+  padding: .5rem;
+}
+.middle-plan-content {
+  padding: 0 1.5rem;
+}
+.plan-location {
+  display: flex;
+  flex-direction: column;
+}
+.flex-container {
+  display: flex;
+  gap: 10px;
+  padding: .5rem 0;
+}
+.plan-color {
+  color: #50AFBF;
+  font-weight: bold;
+}
+.advice-container {
+  background: #E6F4F6;
+  border: 1px solid #e6f4f6;
+  padding: .5rem;
+  margin: 1rem 0;
+}
+.advice-p {
+  font-weight: bold;
+}
+.address-link {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.reservation-link {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.website-p {
+  color: #E86C9C;
+  text-decoration: underline;
+  border: 2px solid #E86C9C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  width: 85%;
+  cursor: pointer;
+}
+.website {
+  color: #E86C9C;
+  cursor: pointer;
+}
+.website:visited {
+  color: #E86C9C;
+  cursor: pointer;
+}
+.shortened-p {
+  padding-left: 1rem;
+}

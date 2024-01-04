@@ -1,0 +1,54 @@
+.vibe-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
+
+.vibe-btn {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #50AFBF;
+  transition: 100ms ease-in-out;
+  background: white;
+}
+
+.vibe-btn>input {
+  display: none;
+}
+
+.vibe-btn:hover,
+.vibe-btn>*:hover {
+  cursor: pointer;
+}
+
+
+.checked {
+  background-color: #50AFBF;
+  color: white;
+}
+
+.vibe-btn-label {
+  padding-inline: 6rem;
+}
+
+@media (max-width: 576px) {
+  .vibe-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem 1.25rem;
+  }
+
+  .vibe-btn {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .vibe-btn-label {
+    padding-inline: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .vibe-btn-label {
+    padding-inline: 4rem;
+  }
+}

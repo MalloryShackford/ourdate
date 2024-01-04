@@ -1,0 +1,38 @@
+@media (max-width: 568px){
+    .congrats-container { 
+        padding-top: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .success-stars {
+        margin-left: 4rem;
+        margin-bottom: 30rem;
+        position: absolute;
+        
+    }
+    .congrats-h3 {
+        text-align: center;
+        padding: 3rem;
+    }
+    .success-btn-container{
+        display: flex;
+        align-items: center;
+    }
+    .continue-button {
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        border: 2px solid #8AC9D4;
+        padding: 0.8rem 8rem;
+        background: #8AC9D4;
+        margin: 6rem auto;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+}

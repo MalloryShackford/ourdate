@@ -1,0 +1,47 @@
+.confirm-modal {
+    position: fixed;
+    position: fixed;   /* Fixed position */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+    z-index: 1000; /* Ensure it's above other content */
+}
+.confirm-modal-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    width: 380px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+.submit-p {
+    margin-bottom: 1rem;
+}
+.confirm-span {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.confirm-button {
+    justify-content: center;
+    width: 45%;
+    border-radius: 5px; 
+    border: 1px solid #50afbf;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    background: #50afbf;
+}
+.h1-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.checkmark-img {
+    margin-right: 10px;
+}

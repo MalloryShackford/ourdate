@@ -1,0 +1,56 @@
+@media (max-width: 568px){
+    .chevron-img-left{
+        padding: 2rem 2rem 0 2rem;
+    }
+    .free-trial-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        padding: 0 2rem 0 2rem;
+    }
+    .stars-container {
+        height: auto;
+    }
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .checkmark-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-top: 1rem;
+        margin: .5rem auto;
+        align-items: center;
+        align-content: flex-start;
+        width: 100%; 
+    }
+    .ft-header {
+        padding: 2rem 0 .5rem 0;
+        font-weight: bold;
+    }
+    .stars-img {
+        margin: 2rem;
+    }
+    .btns-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+    .ft-btn {
+        border-radius: 8px; 
+        border: 1px solid #8AC9D4;
+        padding: .8rem 2rem;
+        background: #8AC9D4;
+    }
+    .later-btn {
+        border-radius: 8px;
+        border: 2px solid #e0538b;
+        color: #e0538b;
+        padding: .8rem 2rem;
+        background: white;
+    }
+}

@@ -1,0 +1,105 @@
+.date-plan-h1 {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    font-weight: bold;
+}
+.date-plan-h2, 
+.past-plan-h2 {
+    padding-left: 1.5rem;
+    padding-top: 0;
+}
+.recent-date-p {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.no-verified-plan-p {
+    padding: 1.5rem;
+}
+.view-span {
+    cursor: pointer;
+}
+.dateplan-container {
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.dateplan-ready-container {
+    display: flex;
+    background: linear-gradient(to right, #f29e9e 30%, #d0a0ec);
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+.dateplan-ready-wrapper {
+    padding: 3px;
+    background: linear-gradient(to right, #ed615e 30%, #7a55e3);
+    border-radius: 16px;
+}
+.recent-dateplan-container {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.start-time-container {
+    border: 1px solid rgb(248,209,224,1);
+    border-radius: 16px;
+    width: 85.6px;
+    height: 83.41px;
+    margin: 0;
+    background: rgb(248,209,224,1);
+    font-weight: bold;
+}
+.plan-details-h3 {
+    font-weight: bold;
+    padding-bottom: .5rem;
+    padding-top: 0;
+}
+.time-h2, 
+.start-time-h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: .5rem;
+    margin: .7rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: wrap;
+}
+.recent-plan-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    justify-content: center;
+}
+.past-plan-container {
+    padding: .5rem 1.5rem;
+    border-radius: 16px;
+}
+.past-time-container {
+    padding:0;
+}
+.box-shadow-container {
+   display: flex;
+   align-items: center;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
+   margin: 1rem 0;
+   border-radius: 16px;
+}
+.past-plan-time-container {
+    border: 1px solid #decdf6;
+    border-radius: 16px;
+    margin: 1.5rem;
+    width: 85.6px;
+    height: 83.41px;
+    background: #decdf6;
+    font-weight: bold;
+}
+.start-time-h2 {
+    display: flex;
+    color: #6842a1;
+    font-weight: bold;
+    text-align: center;
+    padding-top: .5rem;
+    margin: .5rem;
+}
+.past-plan-details-container {
+    display: flex;
+    padding: 1rem;
+}
